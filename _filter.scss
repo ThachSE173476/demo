@@ -1,0 +1,24 @@
+@import './variables';
+
+.filter {
+    width: 33.33333%;
+    padding: 0 16px ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    &-section {
+        h1 {
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 18px;
+        }
+    }
+
+    &-item {
+        margin: 6px 0;
+        label {
+            font-size: 18px;
+        }
+    }
+}

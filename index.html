@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@200;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Demo</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header class="header">
+            <h1 class="header-logo">ITInternshipJob</h1>
+            <div class="header-nav">
+                <div class="header-nav__item">
+                    <a href="">Doanh nghiệp</a>
+                </div>
+                <div class="header-nav__item">
+                    <a href="">Trường Đại học / Cao Đẳng</a>
+                </div>
+            </div>
+            <div class="header-btns">
+                <button class="header-btns__login">đăng nhập</button>
+                <button class="primary-btn header-btns__signup">đăng ký</button>
+            </div>
+        </header>
+        <section class="search">
+            <div class="search-input">
+                <i class="fa-solid fa-magnifying-glass search-input__icon"></i>
+                <input type="text" placeholder="Tìm kiếm">
+                <span>|</span>
+            </div>
+            <div class="search-combobox">
+                <i class="fa-solid fa-location-dot"></i>
+                <span>Hồ Chí Minh</span>
+                <i class="fa-solid fa-chevron-down search-combobox__down"></i>
+            </div>
+            <div class="search-btn ">
+                <button class="primary-btn">Tìm kiếm</button>
+            </div>
+        </section>
+        <section id="main">
+            <section class="filter">
+                <div class="filter-section">
+                    <h1>Loại việc</h1>
+                    <div class="filter-list">
+                        <div class="filter-item">
+                            <input type="checkbox" value="" id="filter-full">
+                            <label for="#filter-full">Full time</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" value="" id="filter-full">
+                            <label for="#filter-full">Part time</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" value="" id="filter-full">
+                            <label for="#filter-full">Remote</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-section">
+                    <h1>Ngày đăng</h1>
+                    <div class="filter-list">
+                        <div class="filter-item">
+                            <input type="checkbox" value="" id="filter-full">
+                            <label for="#filter-full">Mới nhất</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" value="" id="filter-full">
+                            <label for="#filter-full">3 ngày trước</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" value="" id="filter-full">
+                            <label for="#filter-full">7 ngày trước</label>
+                        </div>
+                        <div class="filter-item">
+                            <input type="checkbox" value="" id="filter-full">
+                            <label for="#filter-full">14 ngày trước</label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="job-list">
+                <h2 class="job-result">3 kết quả tìm kiếm</h2>
+
+                <div class="job-item">
+                    <div class="job-item__cty">
+                        <i class="fa-brands fa-apple"></i>
+                        <div class="job-item__cty--in4">
+                            <h4>ReactJS Intern</h4>
+                            <h6>Công ty ABC</h6>
+                        </div>
+                    </div>
+                    <ul class="job-item__tags">
+                        <li>Full time</li>
+                        <li>Thủ Đức, Thành phố Hồ Chí Minh</li>
+                    </ul>
+                    <p class="job-item__days">
+                        <i class="fa-solid fa-timer"></i>
+                        4 ngày trước
+                    </p>
+                    <button class="primary-btn job-item__apply">Ứng tuyển ngay</button>
+                    <div class="job-item__mark">
+                        <i class="fa-solid fa-bookmark"></i>
+                    </div>  
+                </div>
+                <div class="job-item">
+                    <div class="job-item__cty">
+                        <i class="fa-brands fa-apple"></i>
+                        <div class="job-item__cty--in4">
+                            <h4>ReactJS Intern</h4>
+                            <h6>Công ty ABC</h6>
+                        </div>
+                    </div>
+                    <ul class="job-item__tags">
+                        <li>Full time</li>
+                        <li>Thủ Đức, Thành phố Hồ Chí Minh</li>
+                    </ul>
+                    <p class="job-item__days">
+                        <i class="fa-solid fa-timer"></i>
+                        4 ngày trước
+                    </p>
+                    <button class="primary-btn job-item__apply">Ứng tuyển ngay</button>
+                    <div class="job-item__mark">
+                        <i class="fa-solid fa-bookmark"></i>
+                    </div>  
+                </div>
+                <div class="job-item">
+                    <div class="job-item__cty">
+                        <i class="fa-brands fa-apple"></i>
+                        <div class="job-item__cty--in4">
+                            <h4>ReactJS Intern</h4>
+                            <h6>Công ty ABC</h6>
+                        </div>
+                    </div>
+                    <ul class="job-item__tags">
+                        <li>Full time</li>
+                        <li>Thủ Đức, Thành phố Hồ Chí Minh</li>
+                    </ul>
+                    <p class="job-item__days">
+                        <i class="fa-solid fa-timer"></i>
+                        4 ngày trước
+                    </p>
+                    <button class="primary-btn job-item__apply">Ứng tuyển ngay</button>
+                    <div class="job-item__mark">
+                        <i class="fa-solid fa-bookmark"></i>
+                    </div>  
+                </div>
+            </section>
+        </section>
+    </div>
+
+    <script src="https://kit.fontawesome.com/71fc3c0132.js" crossorigin="anonymous"></script>
+</body>
+</html>
